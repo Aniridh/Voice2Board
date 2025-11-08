@@ -1,0 +1,55 @@
+.quick-actions {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  z-index: 5;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.quick-action-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.quick-action-button:hover:not(:disabled) {
+  background: #f5f5f5;
+  border-color: #4a90e2;
+  color: #4a90e2;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(74, 144, 226, 0.2);
+}
+
+.quick-action-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.quick-action-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.quick-action-button:focus-visible {
+  outline: 3px solid #4a90e2;
+  outline-offset: 2px;
+  box-shadow: 0 2px 4px rgba(74, 144, 226, 0.2), 0 0 0 3px rgba(74, 144, 226, 0.3);
+}
+
+.quick-action-button svg {
+  flex-shrink: 0;
+}
+

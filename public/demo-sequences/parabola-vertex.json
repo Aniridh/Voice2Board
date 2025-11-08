@@ -1,0 +1,32 @@
+{
+  "name": "Parabola with Vertex",
+  "description": "Graph of x^2 + 2x + 1 with vertex labeled",
+  "actions": [
+    {
+      "action": "draw",
+      "content": "x^2 + 2*x + 1",
+      "subject": "math",
+      "visual_type": "graph",
+      "meta": {
+        "domain": [-5, 5]
+      }
+    },
+    {
+      "action": "annotate",
+      "content": "Vertex",
+      "subject": "math",
+      "visual_type": "label",
+      "meta": {
+        "points": [
+          { "x": -1, "y": 0 }
+        ],
+        "labels": ["Vertex"]
+      }
+    },
+    {
+      "action": "explain",
+      "content": "This is a parabola opening upward. The vertex is at (-1, 0), which is the minimum point of the function."
+    }
+  ]
+}
+

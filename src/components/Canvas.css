@@ -1,0 +1,84 @@
+.canvas-container {
+  width: 100%;
+  flex: 1;
+  background: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.canvas-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.canvas-controls {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.canvas-clear-button {
+  padding: 0.5rem 1rem;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(231, 76, 60, 0.3);
+  transition: all 0.2s;
+  z-index: 10;
+  outline: none;
+}
+
+.canvas-clear-button:hover {
+  background: #c0392b;
+  box-shadow: 0 4px 12px rgba(231, 76, 60, 0.4);
+  transform: translateY(-2px);
+}
+
+.canvas-clear-button:active {
+  transform: translateY(0);
+}
+
+.canvas-clear-button:focus-visible {
+  outline: 3px solid #e74c3c;
+  outline-offset: 2px;
+  box-shadow: 0 2px 8px rgba(231, 76, 60, 0.3), 0 0 0 3px rgba(231, 76, 60, 0.3);
+}
+
+.canvas-export-button {
+  padding: 0.5rem 1rem;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(74, 144, 226, 0.3);
+  transition: all 0.2s;
+  outline: none;
+}
+
+.canvas-export-button:hover {
+  background: #357abd;
+  box-shadow: 0 4px 12px rgba(74, 144, 226, 0.4);
+  transform: translateY(-2px);
+}
+
+.canvas-export-button:active {
+  transform: translateY(0);
+}
+
+.canvas-export-button:focus-visible {
+  outline: 3px solid #4a90e2;
+  outline-offset: 2px;
+  box-shadow: 0 2px 8px rgba(74, 144, 226, 0.3), 0 0 0 3px rgba(74, 144, 226, 0.3);
+}
+

@@ -1,0 +1,18 @@
+{
+  "name": "Hydrogen Molecule",
+  "description": "Simple covalent bond for H2",
+  "actions": [
+    {
+      "action": "draw",
+      "content": "H2 covalent bond",
+      "subject": "chemistry",
+      "visual_type": "diagram",
+      "meta": null
+    },
+    {
+      "action": "explain",
+      "content": "This shows a hydrogen molecule with two hydrogen atoms sharing a pair of electrons in a covalent bond."
+    }
+  ]
+}
+

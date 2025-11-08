@@ -1,0 +1,29 @@
+{
+  "name": "Trigonometric Functions",
+  "description": "Graphs of sin(x) and cos(x)",
+  "actions": [
+    {
+      "action": "draw",
+      "content": "sin(x)",
+      "subject": "math",
+      "visual_type": "graph",
+      "meta": {
+        "domain": [-10, 10]
+      }
+    },
+    {
+      "action": "draw",
+      "content": "cos(x)",
+      "subject": "math",
+      "visual_type": "graph",
+      "meta": {
+        "domain": [-10, 10]
+      }
+    },
+    {
+      "action": "explain",
+      "content": "These are the sine and cosine functions. Notice how they oscillate between -1 and 1, and how cosine is shifted by 90 degrees from sine."
+    }
+  ]
+}
+
